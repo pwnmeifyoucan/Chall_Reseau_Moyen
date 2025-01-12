@@ -21,7 +21,7 @@ while (true) {
         continue;
     }
     
-    $message = "### This is your flag ###\nCTF_2_5_{!_s0ck3t_1s_str4ng3_!}";
+    $message = "This is your flag:  CTF_2_5_{!_s0ck3t_1s_str4ng3_!}";
     socket_write($client, $message, strlen($message));
     
     socket_close($client);
